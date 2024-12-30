@@ -30,6 +30,7 @@ This SQL-based design emphasizes simplicity, scalability, and readiness for futu
 To complement the SQL design, a NoSQL implementation was developed using MongoDB, providing flexibility and scalability for handling unstructured and semi-structured data. Key features of this implementation include:
 
 Document-Based Data Model: Data for songs, users, playlists, and artist information is stored in a document-oriented structure, enabling rapid development and iteration.
+
 Nested and Dynamic Data: Complex relationships, such as playlists containing multiple songs or user preferences, are managed within nested documents, reducing the need for extensive joins.
 
 The NoSQL approach enhances the system's ability to support features like real-time activity tracking, dynamic recommendations, and high-speed queries for large-scale datasets.
