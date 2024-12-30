@@ -1,0 +1,645 @@
+db={
+  "Account": [
+    {
+      account_id: 1,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 2,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 3,
+      account_type: "Artist"
+    },
+    {
+      account_id: 4,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 5,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 6,
+      account_type: "Artist"
+    },
+    {
+      account_id: 7,
+      account_type: "Artist"
+    },
+    {
+      account_id: 8,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 9,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 10,
+      account_type: "Artist"
+    },
+    {
+      account_id: 11,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 12,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 13,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 14,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 15,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 16,
+      account_type: "Artist"
+    },
+    {
+      account_id: 17,
+      account_type: "Artist"
+    },
+    {
+      account_id: 18,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 19,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 20,
+      account_type: "Artist"
+    },
+    {
+      account_id: 21,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 22,
+      account_type: "Artist"
+    },
+    {
+      account_id: 23,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 24,
+      account_type: "Artist"
+    },
+    {
+      account_id: 25,
+      account_type: "Artist"
+    },
+    {
+      account_id: 26,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 27,
+      account_type: "Artist"
+    },
+    {
+      account_id: 28,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 29,
+      account_type: "Subscriber"
+    },
+    {
+      account_id: 30,
+      account_type: "Subscriber"
+    }
+  ],
+  "Artist": [
+    {
+      artist_id: 3,
+      artist_name: "Enola Bins",
+      artist_email: "padberg.fredrick@gmail.com",
+      bank_acc_no: "961008718"
+    },
+    {
+      artist_id: 6,
+      artist_name: "Mr. Ladarius Grimes",
+      artist_email: "dstark@yahoo.com",
+      bank_acc_no: "525095191"
+    },
+    {
+      artist_id: 7,
+      artist_name: "Abbey Olson",
+      artist_email: "emery.powlowski@hotmail.com",
+      bank_acc_no: "201632029"
+    },
+    {
+      artist_id: 10,
+      artist_name: "Susanna Kozey",
+      artist_email: "chyna21@heathcote.com",
+      bank_acc_no: "974947312"
+    },
+    {
+      artist_id: 16,
+      artist_name: "Esperanza Dicki",
+      artist_email: "johnston.janessa@langworth.com",
+      bank_acc_no: "290664165"
+    },
+    {
+      artist_id: 17,
+      artist_name: "Mrs. Zoey Herzog",
+      artist_email: "hershel.yundt@yahoo.com",
+      bank_acc_no: "686782797"
+    },
+    {
+      artist_id: 20,
+      artist_name: "Jaquan Legros",
+      artist_email: "scarlett05@yost.net",
+      bank_acc_no: "337375206"
+    },
+    {
+      artist_id: 22,
+      artist_name: "Graciela Greenholt PhD",
+      artist_email: "misty27@murray.info",
+      bank_acc_no: "612650149"
+    },
+    {
+      artist_id: 24,
+      artist_name: "Syble Conn",
+      artist_email: "aaron.abbott@effertzkeebler.com",
+      bank_acc_no: "542908190"
+    },
+    {
+      artist_id: 25,
+      artist_name: "Lorena Rutherford",
+      artist_email: "gusikowski.desiree@hotmail.com",
+      bank_acc_no: "320933393"
+    },
+    {
+      artist_id: 27,
+      artist_name: "Mozell Morar I",
+      artist_email: "jovan24@yahoo.com",
+      bank_acc_no: "887165128"
+    }
+  ],
+  "Album": [
+    {
+      album_id: 1,
+      album_name: "aut",
+      artist_id: 27
+    },
+    {
+      album_id: 2,
+      album_name: "provident",
+      artist_id: 27
+    },
+    {
+      album_id: 3,
+      album_name: "voluptate",
+      artist_id: 3
+    },
+    {
+      album_id: 4,
+      album_name: "rerum",
+      artist_id: 6
+    },
+    {
+      album_id: 5,
+      album_name: "dolorem",
+      artist_id: 3
+    },
+    {
+      album_id: 6,
+      album_name: "repellat",
+      artist_id: 3
+    },
+    {
+      album_id: 7,
+      album_name: "maxime",
+      artist_id: 22
+    },
+    {
+      album_id: 8,
+      album_name: "dolor",
+      artist_id: 16
+    },
+    {
+      album_id: 9,
+      album_name: "rerum",
+      artist_id: 16
+    },
+    {
+      album_id: 10,
+      album_name: "optio",
+      artist_id: 17
+    },
+    {
+      album_id: 11,
+      album_name: "enim",
+      artist_id: 6
+    },
+    {
+      album_id: 12,
+      album_name: "magni",
+      artist_id: 7
+    },
+    {
+      album_id: 13,
+      album_name: "cum",
+      artist_id: 7
+    },
+    {
+      album_id: 14,
+      album_name: "voluptatum",
+      artist_id: 20
+    },
+    {
+      album_id: 15,
+      album_name: "nisi",
+      artist_id: 10
+    },
+    {
+      album_id: 16,
+      album_name: "quod",
+      artist_id: 10
+    },
+    {
+      album_id: 17,
+      album_name: "rerum",
+      artist_id: 10
+    },
+    {
+      album_id: 18,
+      album_name: "ullam",
+      artist_id: 3
+    },
+    {
+      album_id: 19,
+      album_name: "atque",
+      artist_id: 24
+    },
+    {
+      album_id: 20,
+      album_name: "enim",
+      artist_id: 25
+    }
+  ],
+  "Genre": [
+    {
+      genre_id: 1,
+      genre_name: "Pop",
+      genre_description: "Pop Music"
+    },
+    {
+      genre_id: 2,
+      genre_name: "Rock",
+      genre_description: "Rock Music"
+    },
+    {
+      genre_id: 3,
+      genre_name: "Hip-Hop",
+      genre_description: "Hip-Pop Music"
+    },
+    {
+      genre_id: 4,
+      genre_name: "Electronic",
+      genre_description: "Electronic Music"
+    },
+    {
+      genre_id: 5,
+      genre_name: "Jazz",
+      genre_description: "Jazz Music"
+    },
+    {
+      genre_id: 6,
+      genre_name: "Classical",
+      genre_description: "Classical Music"
+    }
+  ],
+  "Songs": [
+    {
+      song_id: 1,
+      song_name: "in",
+      song_lyrics: "Repudiandae voluptas debitis qui aperiam. Dicta facere rerum maxime dolor facere fugiat consequatur. Quia perspiciatis numquam voluptas ea. Reprehenderit nam explicabo quos nam.",
+      genre_id: 3,
+      release_date: new Date("1977-11-26"),
+      artist_id: 3,
+      album_id: 3
+    },
+    {
+      song_id: 2,
+      song_name: "necessitatibus",
+      song_lyrics: "Quia dolorem labore est repellat. Ut sunt a repudiandae eligendi.",
+      genre_id: 4,
+      release_date: new Date("2022-01-07"),
+      artist_id: 6,
+      album_id: 4
+    },
+    {
+      song_id: 3,
+      song_name: "et",
+      song_lyrics: "Cupiditate doloribus tenetur dolores earum aut dolorem. Unde culpa ullam velit commodi. Aspernatur et expedita est eligendi aspernatur doloribus alias qui.",
+      genre_id: 5,
+      release_date: new Date("2003-01-07"),
+      artist_id: 7,
+      album_id: 12
+    },
+    {
+      song_id: 4,
+      song_name: "unde",
+      song_lyrics: "Et dolorem sunt aut aliquam. Dignissimos ipsum impedit et similique. Magni labore numquam magni accusamus quia qui iure ab.",
+      genre_id: 4,
+      release_date: new Date("2000-03-01"),
+      artist_id: 5,
+      album_id: 2
+    },
+    {
+      song_id: 5,
+      song_name: "cum",
+      song_lyrics: "Ducimus sint a aliquid sit id autem. Sed ipsum voluptas ab aut ipsa. Non beatae rem vitae amet tempore reiciendis.",
+      genre_id: 4,
+      release_date: new Date("1981-09-29"),
+      artist_id: 7,
+      album_id: 13
+    },
+    {
+      song_id: 6,
+      song_name: "omnis",
+      song_lyrics: "Consequuntur sunt maiores et rem ut. Deleniti odio reprehenderit at sit. Voluptatum sit autem iure saepe voluptatibus voluptas. Est nobis nisi deserunt ab rerum inventore.",
+      genre_id: 5,
+      release_date: new Date("1990-10-21"),
+      artist_id: 6,
+      album_id: 5
+    },
+    {
+      song_id: 7,
+      song_name: "veritatis",
+      song_lyrics: "At labore et ipsum dolorem rerum vel. Est repellendus sint et sunt totam. Nam iusto quidem odit ut. Rerum consequatur quis et non.",
+      genre_id: 6,
+      release_date: new Date("1992-04-04"),
+      artist_id: 8,
+      album_id: 11
+    },
+    {
+      song_id: 8,
+      song_name: "voluptas",
+      song_lyrics: "Aspernatur sint omnis non et. Qui molestiae pariatur excepturi. A quibusdam ut odio et. Non qui est dolorem harum.",
+      genre_id: 3,
+      release_date: new Date("2010-11-16"),
+      artist_id: 9,
+      album_id: 6
+    },
+    {
+      song_id: 9,
+      song_name: "voluptatum",
+      song_lyrics: "Quis omnis eos a similique. Repellendus cumque iusto non ratione. Similique ratione sunt itaque molestias vel est.",
+      genre_id: 2,
+      release_date: new Date("2013-03-09"),
+      artist_id: 10,
+      album_id: 10
+    },
+    {
+      song_id: 10,
+      song_name: "error",
+      song_lyrics: "Laboriosam porro sequi molestiae et in. Quasi perferendis ut tempore voluptates ea velit. Voluptatem quibusdam minus asperiores sequi nulla sunt.",
+      genre_id: 4,
+      release_date: new Date("2020-01-01"),
+      artist_id: 11,
+      album_id: 7
+    },
+    {
+      song_id: 11,
+      song_name: "voluptatem",
+      song_lyrics: "Voluptatem ut quas tempore repellat voluptatem. Perferendis omnis magnam quas. Quisquam quos vitae officia esse. Aspernatur reiciendis labore velit eos.",
+      genre_id: 3,
+      release_date: new Date("2011-08-24"),
+      artist_id: 12,
+      album_id: 8
+    },
+    {
+      song_id: 12,
+      song_name: "officiis",
+      song_lyrics: "Quas quae quo reprehenderit hic sed id. Voluptas et et sequi provident veritatis. Vel ipsa similique praesentium id. Autem mollitia sunt quia et.",
+      genre_id: 6,
+      release_date: new Date("2016-11-03"),
+      artist_id: 13,
+      album_id: 9
+    },
+    {
+      song_id: 13,
+      song_name: "ipsa",
+      song_lyrics: "Ipsa nisi ut qui qui qui quia. Vero omnis voluptatem aut eius. Ut velit itaque vel debitis. Voluptas et quibusdam voluptas ut ut.",
+      genre_id: 1,
+      release_date: new Date("2015-10-10"),
+      artist_id: 14,
+      album_id: 1
+    },
+    {
+      song_id: 39,
+      song_name: "odio",
+      song_lyrics: "Eum ratione exercitationem ut nisi et et. Nihil aut eveniet molestiae placeat sint minus debitis.",
+      genre_id: 4,
+      release_date: new Date("2020-02-12"),
+      artist_id: 6,
+      album_id: null
+    },
+    {
+      song_id: 40,
+      song_name: "nemo",
+      song_lyrics: "Ipsam odit ipsa mollitia sed. Enim ea dolorum voluptatibus sit. Aut eaque molestiae aut laborum. Est dolores nobis sed dolores sapiente deleniti commodi.",
+      genre_id: 5,
+      release_date: new Date("1991-12-07"),
+      artist_id: 10,
+      album_id: null
+    }
+  ],
+  "Payments": [
+    {
+      payment_id: 1,
+      amount: 391142,
+      date: ISODate("1974-09-20"),
+      artist_id: 3
+    },
+    {
+      payment_id: 2,
+      amount: 280101,
+      date: ISODate("1992-08-01"),
+      artist_id: 6
+    },
+    {
+      payment_id: 3,
+      amount: 193494,
+      date: ISODate("2003-01-22"),
+      artist_id: 7
+    },
+    {
+      payment_id: 4,
+      amount: 827567,
+      date: ISODate("1992-09-20"),
+      artist_id: 10
+    },
+    {
+      payment_id: 5,
+      amount: 528552,
+      date: ISODate("1976-02-11"),
+      artist_id: 16
+    },
+    {
+      payment_id: 6,
+      amount: 810958,
+      date: ISODate("1990-06-19"),
+      artist_id: 17
+    },
+    {
+      payment_id: 7,
+      amount: 132747,
+      date: ISODate("2004-07-11"),
+      artist_id: 22
+    },
+    {
+      payment_id: 8,
+      amount: 831485,
+      date: ISODate("2000-11-14"),
+      artist_id: 20
+    },
+    {
+      payment_id: 9,
+      amount: 354329,
+      date: ISODate("2023-11-26"),
+      artist_id: 24
+    },
+    {
+      payment_id: 10,
+      amount: 840636,
+      date: ISODate("1970-09-17"),
+      artist_id: 25
+    },
+    {
+      payment_id: 11,
+      amount: 764458,
+      date: ISODate("1990-08-28"),
+      artist_id: 27
+    },
+    {
+      payment_id: 12,
+      amount: 466330,
+      date: ISODate("2021-01-10"),
+      artist_id: 3
+    },
+    {
+      payment_id: 13,
+      amount: 756804,
+      date: ISODate("1998-09-30"),
+      artist_id: 6
+    },
+    {
+      payment_id: 14,
+      amount: 843666,
+      date: ISODate("2001-11-24"),
+      artist_id: 7
+    },
+    {
+      payment_id: 15,
+      amount: 482349,
+      date: ISODate("1986-04-18"),
+      artist_id: 10
+    },
+    {
+      payment_id: 16,
+      amount: 201227,
+      date: ISODate("1989-05-31"),
+      artist_id: 16
+    },
+    {
+      payment_id: 17,
+      amount: 930635,
+      date: ISODate("1996-12-22"),
+      artist_id: 17
+    },
+    {
+      payment_id: 18,
+      amount: 555177,
+      date: ISODate("1973-06-01"),
+      artist_id: 20
+    },
+    {
+      payment_id: 19,
+      amount: 301096,
+      date: ISODate("2022-03-24"),
+      artist_id: 22
+    },
+    {
+      payment_id: 20,
+      amount: 162727,
+      date: ISODate("2000-01-30"),
+      artist_id: 24
+    },
+    {
+      payment_id: 21,
+      amount: 95830,
+      date: ISODate("2007-07-30"),
+      artist_id: 25
+    },
+    {
+      payment_id: 22,
+      amount: 21136,
+      date: ISODate("2024-04-06"),
+      artist_id: 27
+    },
+    {
+      payment_id: 23,
+      amount: 838854,
+      date: ISODate("1988-07-24"),
+      artist_id: 3
+    },
+    {
+      payment_id: 24,
+      amount: 947663,
+      date: ISODate("1978-12-11"),
+      artist_id: 6
+    },
+    {
+      payment_id: 25,
+      amount: 396739,
+      date: ISODate("1970-10-04"),
+      artist_id: 7
+    },
+    {
+      payment_id: 26,
+      amount: 76915,
+      date: ISODate("2018-02-02"),
+      artist_id: 24
+    },
+    {
+      payment_id: 27,
+      amount: 744121,
+      date: ISODate("2022-08-06"),
+      artist_id: 25
+    },
+    {
+      payment_id: 28,
+      amount: 599259,
+      date: ISODate("1981-03-19"),
+      artist_id: 3
+    },
+    {
+      payment_id: 29,
+      amount: 950146,
+      date: ISODate("1993-02-27"),
+      artist_id: 27
+    },
+    {
+      payment_id: 30,
+      amount: 274945,
+      date: ISODate("1992-08-02"),
+      artist_id: 7
+    }
+  ]
+}
