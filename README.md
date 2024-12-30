@@ -21,3 +21,16 @@ These might include search optimization, personalized content recommendations, o
 Ultimately, this project lays a strong foundation for both efficient operations and meaningful expansion opportunities in the future.
 
 EER model link:  https://github.com/ArundhatiU/music_streaming_db/blob/main/EER_diagram_music_streaming_service_db.drawio.png
+
+## Relations used in database:
+
+1. Account(account_id, account_type) 
+2. Subscriber(subscriber_id, subscriber_name, subscriber_email,plan_id)
+3. Artist(artist_id, artist_name, artist_email, bank_acc_no)
+4. Subscription_Plan(plan_id, plan_name)
+5. Playlist(playlist_id, subscriber_id, playlist_name)
+6. Album(album_id, album_name, artist_id)
+7. Songs(song_id, song_name, song_lyrics, genre_id, release_date, artist_id,album_id)
+8. Playlist_Songs(playlist_id, song_id)
+9. Payments(payment_id, artist_id, amount, date)
+10. Genre(genre_id, genre_name, genre_description )
