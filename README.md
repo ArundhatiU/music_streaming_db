@@ -1,5 +1,5 @@
 # music_streaming_db
-Music_streaming_service
+### Music_streaming_service
 
 Music streaming services have become a cornerstone of digital entertainment, offering users convenient access to millions of songs.
 In this project, focus is on building a relational database for a music streaming platform to address critical backend needs. 
