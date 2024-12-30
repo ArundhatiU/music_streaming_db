@@ -27,7 +27,7 @@ This SQL-based design emphasizes simplicity, scalability, and readiness for futu
 10. Genre(genre_id, genre_name, genre_description )
 
 ## Non-Relational Database (NoSQL) Implementation
-To complement the SQL design, a NoSQL implementation was developed using MongoDB, providing flexibility and scalability for handling unstructured and semi-structured data. Key features of this implementation include:
+As an alternate to the SQL design, a NoSQL implementation was developed using MongoDB, providing flexibility and scalability for handling unstructured and semi-structured data. Key features of this implementation include:
 
 Document-Based Data Model: Data for songs, users, playlists, and artist information is stored in a document-oriented structure, enabling rapid development and iteration.
 
