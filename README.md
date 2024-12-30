@@ -20,3 +20,4 @@ By prioritizing essential features like playlist and song organization, we creat
 These might include search optimization, personalized content recommendations, or real-time data analysis. 
 Ultimately, this project lays a strong foundation for both efficient operations and meaningful expansion opportunities in the future.
 
+EER model link:  https://github.com/ArundhatiU/music_streaming_db/blob/main/EER_diagram_music_streaming_service_db.drawio.png
