@@ -1,26 +1,17 @@
-# music_streaming_db
 ### Music Streaming Service
 
-Music streaming services have become a cornerstone of digital entertainment, offering users convenient access to millions of songs.
-In this project, focus is on building a relational database for a music streaming platform to address critical backend needs. 
-The goal was to design a system capable of managing core functionalities such as user subscriptions, playlists, and artist data while keeping the database scalable for future enhancements. 
-This approach ensures that the platform has a robust foundation, capable of adapting to advanced features like personalized recommendations or real-time search tools as the platform grows.
-
-This database design includes comprehensive metadata for songs and artists. This metadata—such as genres, release dates, and lyrics—enables the platform to support future developments like real-time search and personalized recommendations. 
-One of the key components is the subscription plan table, which categorizes users into free and premium tiers. 
-This table ensures scalability, supporting features specific to each tier. 
-Additionally, the database supports subscriber-generated playlists through a playlist table. 
-Relationships between playlists and songs are managed via the playlist_songs table, which allows users to create and customize playlists seamlessly. 
-Together, these features provide an efficient and organized way to handle core user interactions on the platform.
-
-In addition to managing user and playlist data,  database tracks artist payments through a dedicated payments table. 
-This table allows for multiple payment entries per artist, ensuring accurate tracking of revenues over time. 
-While the database excludes stream counts and detailed user activity tracking—such as listening history or favorites—it focuses on simplicity and functionality. 
-By prioritizing essential features like playlist and song organization, we created a system that is scalable and ready for future integration of advanced functionalities. 
-These might include search optimization, personalized content recommendations, or real-time data analysis. 
-Ultimately, this project lays a strong foundation for both efficient operations and meaningful expansion opportunities in the future.
+Music streaming services have become a cornerstone of digital entertainment, offering users convenient access to millions of songs. This project explores building a comprehensive database system for a music streaming platform, leveraging both relational (SQL) and non-relational (NoSQL) approaches to address critical backend needs. The objective was to design a scalable, efficient, and versatile system capable of managing core functionalities such as user subscriptions, playlists, artist data, and metadata while being adaptable for future enhancements.
 
 EER model link:  https://github.com/ArundhatiU/music_streaming_db/blob/main/EER_diagram_music_streaming_service_db.drawio.png
+
+## Relational Database (SQL) Implementation
+The SQL implementation focuses on creating a structured, relational database to ensure robust organization and enforce relationships between entities. Key highlights of this implementation include:
+
+Comprehensive Metadata for Songs and Artists: The database stores rich metadata, such as genres, release dates, and lyrics, to support advanced features like real-time search and personalized recommendations.
+User Subscriptions: A dedicated subscription plan table categorizes users into free and premium tiers, enabling feature differentiation and scalability for evolving subscription models.
+Playlist Management: The playlist and playlist_songs tables manage user-generated playlists, allowing seamless creation and customization of playlists while maintaining relational integrity.
+Artist Payments: A payments table tracks artist revenues over time, supporting accurate financial management with multiple payment entries for each artist.
+This SQL-based design emphasizes simplicity, scalability, and readiness for future integrations, such as advanced search optimization, personalized content recommendations, or real-time data analysis.
 
 ## Relations used in database:
 
@@ -34,3 +25,11 @@ EER model link:  https://github.com/ArundhatiU/music_streaming_db/blob/main/EER_
 8. Playlist_Songs(playlist_id, song_id)
 9. Payments(payment_id, artist_id, amount, date)
 10. Genre(genre_id, genre_name, genre_description )
+
+## Non-Relational Database (NoSQL) Implementation
+To complement the SQL design, a NoSQL implementation was developed using MongoDB, providing flexibility and scalability for handling unstructured and semi-structured data. Key features of this implementation include:
+
+Document-Based Data Model: Data for songs, users, playlists, and artist information is stored in a document-oriented structure, enabling rapid development and iteration.
+Nested and Dynamic Data: Complex relationships, such as playlists containing multiple songs or user preferences, are managed within nested documents, reducing the need for extensive joins.
+
+The NoSQL approach enhances the system's ability to support features like real-time activity tracking, dynamic recommendations, and high-speed queries for large-scale datasets.
