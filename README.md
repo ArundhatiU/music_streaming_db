@@ -1,4 +1,4 @@
-### Music Streaming Service
+## Music Streaming Service
 
 Music streaming services have become a cornerstone of digital entertainment, offering users convenient access to millions of songs. This project explores building a comprehensive database system for a music streaming platform, leveraging both relational (SQL) and non-relational (NoSQL) approaches to address critical backend needs. The objective was to design a scalable, efficient, and versatile system capable of managing core functionalities such as user subscriptions, playlists, artist data, and metadata while being adaptable for future enhancements.
 
